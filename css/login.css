@@ -1,0 +1,129 @@
+.posicionamento_page{
+    margin-top: 80px;
+    width: 100%;
+    height: 785px;
+}
+
+.img_1{
+    width: 45%;
+}
+
+.posicionamento_direita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_senai{
+    width: 40%;
+    height: 75px;
+    margin-bottom: 40px;
+}
+
+.fundo_formulario{
+    background-color: #FF0000;
+    border-radius: 20px;
+    width: 700px;
+    height: 585px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:  0 0 1em rgba(0, 0, 0, 0.452);
+}
+
+.titulo_form{
+    font-family: 'Bebas Neue';
+    font-size: 50px;
+    color: white;
+    margin-top: 65px;
+}
+
+#input_um{
+    margin-top: 15px;
+}
+
+#input_dois{
+    margin-top: 15px;
+}
+
+.form_login{
+    /* background-color: aqua; */
+    width: 100%;
+    margin: auto 0;
+}
+
+.input_login{
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    margin-left: 55px;
+    margin-bottom: 27px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    flex-direction: column;
+    text-transform: uppercase;
+    
+}
+
+.inputs_form{
+    width: 80%;
+    height: 49px;
+	padding: 10px;
+	border: none;
+	margin-bottom: 12px;
+	border-radius: 12px;
+    background-color: #F3F3F3;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.inputs_form:focus{
+    outline: none;
+}
+
+.inputs_form_senha{
+    width: 70%;
+    height: 49px;
+	padding: 10px;
+	border: none;
+	margin-bottom: 12px;
+	border-radius: 12px 0 0 12px;
+    background-color: #F3F3F3;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.inputs_form_senha:focus{
+    outline:none
+}
+
+.olho_botao{
+    width: 10%;
+    height: 49px;
+	padding: 10px;
+	border: none;
+	margin-bottom: 12px;
+	border-radius: 0 12px 12px 0;
+    background-color: #F3F3F3;
+    color: #053C5E;
+}
+
+
+.posicionamento_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.btn{
+    width: 31%;
+    height: 60px;
+	padding: 10px;
+	border: none;
+	margin-top: 23px;
+	border-radius: 12px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}

@@ -9,7 +9,7 @@
 
 .fundo_form{
     width: 1300px;
-    height: 700px;
+    height: 650px;
     background-color: white;
     border-radius: 20px;
     box-shadow:  0 0 1em rgba(0, 0, 0, 0.452);
@@ -22,4 +22,112 @@
 .form_lista{
     /* background-color: aquamarine; */
     width: 80%;
+}
+
+.titulo_form{
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    color: #FF0000;
+    font-size: 50px;
+}
+
+.alinhamento_colunas{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.alinhamento_forms{
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.coluna{
+    background-color: #ED4343;
+    width: 14%;
+    height: 50px;
+    margin-right: 1px;
+}
+
+.coluna_ponta_esquerda{
+    border-radius: 15px 0 0 15px;
+}
+
+.coluna_ponta_direita{
+    border-radius: 0 15px 15px 0;
+}
+
+.titulo_coluna{
+    color: white;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.input_form{
+    width: 14%;
+    height: 50px;
+    margin-right: 1px;
+}
+
+.inputs_form{
+    background-color: #EFEEE0;
+    width: 100%;
+    height: 50px;
+    border-color: transparent;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:300 ;
+    font-size: 14px;
+    color: #ED4343;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* .inputs_form:hover{
+    background-color: #dfded2;
+    box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.336);
+    transition: 0.25s;
+} */
+
+.img_input{
+    background-image: url(../imgs/Botão_Marcar_Entrada.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.img_input:hover{
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.363);
+    transition: 0.3s;
+    transform: scale(1.04);
+}
+
+.img_input:active{
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.363);
+    transition: 0.15s;
+    transform: scale(1.00);
+}
+
+.inputs_form:focus{
+    outline: none;
+    background-color: #dfded2;
+    /* box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.336); */
+    transition: 0.25s;
+}
+.input_form:focus{
+    outline: none;
 }

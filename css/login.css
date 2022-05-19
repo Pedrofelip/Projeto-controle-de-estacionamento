@@ -60,6 +60,7 @@
     margin-bottom: 27px;
     color: white;
     font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
     flex-direction: column;
     text-transform: uppercase;
     
@@ -74,6 +75,7 @@
 	border-radius: 12px;
     background-color: #F3F3F3;
     font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
 }
 
 .inputs_form:focus{
@@ -104,6 +106,7 @@
 	border-radius: 0 12px 12px 0;
     background-color: #F3F3F3;
     color: #053C5E;
+    cursor: pointer;
 }
 
 
@@ -124,6 +127,7 @@
     color: white;
     font-size: 22px;
     font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
 }

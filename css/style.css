@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@600&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@600&family=Ubuntu:wght@300;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -31,6 +31,8 @@ body{
     width: 100%;
     height: 65px;
     background-color: #2A2828;
+    display: flex;
+    flex-direction: row;
 }
 
 .itens_cabecalho{
@@ -45,6 +47,19 @@ body{
 .logo_senai{
     width: 100px;
     height: 27px;
+}
+
+.btn_voltar{
+    width: 65px;
+    height: 65px;
+    /* background-color: aqua; */
+    color: white;
+}
+
+.voltar{
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 .btn_sair{

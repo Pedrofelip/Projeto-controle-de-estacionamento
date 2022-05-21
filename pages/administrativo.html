@@ -14,11 +14,28 @@
 <body>
     <header class="cabecalho">
         <div class="btn_voltar">
-            <a href="../pages/home.html">voltar</i></a>
+            <a href="../pages/home.html" class="voltar">voltar</a>
         </div>
         <div class="wrapper itens_cabecalho">
             <img src="../imgs/Imagem_Logo_SENAI.png" alt="logo da rede de educação senai" class="logo_senai">
-            <a href="../pages/home.html" class="btn_sair">sair</a>
+            <!-- <a href="../index.html" class="btn_sair">sair</a> -->
+            <button id="btn_modal" class="btn_sair">sair</button>
+
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="conteudo_modal">
+                  <p>você tem certeza que deseja sair da sua conta?</p>
+
+                  <div class="posicionamento_btns">
+                      <div class="btns_modal">
+                          <button class="btn_modal_f">fechar</button>
+                          <a href="../index.html" class="btn_modal_ok">ok</a>
+                      </div>
+                  </div>
+                </div>
+              
+            </div>
         </div>
     </header>
     <main>
@@ -62,11 +79,71 @@
                         <div class="input_form">
                             <input class="inputs_form" type="date">
                         </div>
+                        
+                        <div class="input_form">
+                            <input class="inputs_form" type="time">
+                        </div>
+                        
+                        <div class="input_form coluna_ponta_direita">
+                            <input class="inputs_form coluna_ponta_direita" type="time">
+                        </div>
+                    </form>
     
+                    <form class="alinhamento_colunas">
+                        <div class="input_form coluna_ponta_esquerda">
+                            <input class="inputs_form coluna_ponta_esquerda" type="text">
+                        </div>
+    
+                        <div class="input_form">
+                            <input class="inputs_form" type="text">
+                        </div>
+                        
+                        <div class="input_form">
+                            <input class="inputs_form" type="text">
+                        </div>
+    
+                        <div class="input_form">
+                            <input class="inputs_form" type="tel">
+                        </div>
+                        
+                        <div class="input_form">
+                            <input class="inputs_form" type="date">
+                        </div>
+                        
                         <div class="input_form">
                             <input class="inputs_form" type="time">
                         </div>
     
+                        <div class="input_form coluna_ponta_direita">
+                            <input class="inputs_form coluna_ponta_direita" type="time">
+                        </div>
+                    </form>
+    
+                    <form class="alinhamento_colunas">
+                        <div class="input_form coluna_ponta_esquerda">
+                            <input class="inputs_form coluna_ponta_esquerda" type="text">
+                        </div>
+                        
+                        <div class="input_form">
+                            <input class="inputs_form" type="text">
+                        </div>
+                        
+                        <div class="input_form">
+                            <input class="inputs_form" type="text">
+                        </div>
+    
+                        <div class="input_form">
+                            <input class="inputs_form" type="tel">
+                        </div>
+    
+                        <div class="input_form">
+                            <input class="inputs_form" type="date">
+                        </div>
+    
+                        <div class="input_form">
+                            <input class="inputs_form" type="time">
+                        </div>
+                        
                         <div class="input_form coluna_ponta_direita">
                             <input class="inputs_form coluna_ponta_direita" type="time">
                         </div>
@@ -101,67 +178,7 @@
                             <input class="inputs_form coluna_ponta_direita" type="time">
                         </div>
                     </form>
-    
-                    <form class="alinhamento_colunas">
-                        <div class="input_form coluna_ponta_esquerda">
-                            <input class="inputs_form coluna_ponta_esquerda" type="text">
-                        </div>
-    
-                        <div class="input_form">
-                            <input class="inputs_form" type="text">
-                        </div>
-    
-                        <div class="input_form">
-                            <input class="inputs_form" type="text">
-                        </div>
-    
-                        <div class="input_form">
-                            <input class="inputs_form" type="tel">
-                        </div>
-    
-                        <div class="input_form">
-                            <input class="inputs_form" type="date">
-                        </div>
-    
-                        <div class="input_form">
-                            <input class="inputs_form" type="time">
-                        </div>
-    
-                        <div class="input_form coluna_ponta_direita">
-                            <input class="inputs_form coluna_ponta_direita" type="time">
-                        </div>
-                    </form>
-    
-                    <form class="alinhamento_colunas">
-                        <div class="input_form coluna_ponta_esquerda">
-                            <input class="inputs_form coluna_ponta_esquerda" type="text">
-                        </div>
-    
-                        <div class="input_form">
-                            <input class="inputs_form" type="text">
-                        </div>
-    
-                        <div class="input_form">
-                            <input class="inputs_form" type="text">
-                        </div>
-    
-                        <div class="input_form">
-                            <input class="inputs_form" type="tel">
-                        </div>
-    
-                        <div class="input_form">
-                            <input class="inputs_form" type="date">
-                        </div>
-    
-                        <div class="input_form">
-                            <input class="inputs_form" type="time">
-                        </div>
-    
-                        <div class="input_form coluna_ponta_direita">
-                            <input class="inputs_form coluna_ponta_direita" type="time">
-                        </div>
-                    </form>
-
+                    
                     <div class="posicionamento_btn">
                         <button type="button" class="btn">imprimir</button>
                     </div>
@@ -174,5 +191,8 @@
     <footer class="rodape">
         <p>copyrigth @ 2022 escola senai de informática</p>
     </footer>
+
+    <script src="../script.js"></script>
+
 </body>
 </html>

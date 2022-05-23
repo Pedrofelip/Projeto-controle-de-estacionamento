@@ -49,10 +49,10 @@ body{
     height: 27px;
 }
 
-.btn_voltar{
+.posicionamento_btn_voltar{
     width: 65px;
     height: 65px;
-    /* background-color: aqua; */
+    /* background-color: palevioletred; */
     color: white;
     display: flex;
     flex-direction: row;
@@ -60,12 +60,12 @@ body{
     align-items: center;
 }
 
-.voltar{
-    background-color: aqua;
+.btn_voltar{
+    /* background-color: aqua; */
     width: 40px;
     height: 40px;
     color: white;
-    font-size: 14px;
+    font-size: 25px;
     cursor: pointer;
     display: flex;
     flex-direction: row;
@@ -118,6 +118,10 @@ body{
   }
   
   /* Modal Content/Box */
+  #popUp{
+    display: none;
+  }
+
   .conteudo_modal {
     background-color: #ED4343;
     width: 27%;
@@ -196,4 +200,5 @@ body{
     from {top:-300px; opacity:0}
     to {top:0px; opacity:1}
   }
+
   

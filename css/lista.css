@@ -64,6 +64,10 @@
     border-radius: 0 15px 15px 0;
 }
 
+.btn_marcar_saida{
+    border-radius: 0 15px 15px 0;
+}
+
 .titulo_coluna{
     color: white;
     font-size: 14px;
@@ -131,3 +135,136 @@
 .input_form:focus{
     outline: none;
 }
+
+/* formulario saida */
+
+#fundo_modal{
+    width: 100%;
+    height: 810px;
+    position: fixed;
+    display: none;
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.posicionamento_modal{
+    width: 100%;
+    height: 810px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_marcar_saida{
+    width: 840px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:  0 0 1em rgba(0, 0, 0, 0.452);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    left: 550px;
+    top: 240px;
+}
+
+.titulo_form_modal{
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    color: #FF0000;
+    font-size: 37px;
+}
+
+.form_cadastro_modal{
+    /* background-color: aquamarine; */
+    width: 80%;
+}
+
+#input_um{
+    margin-top: 7px;
+}
+
+.input_cadastro_modal{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    margin-bottom: 20px;
+    color: #FF0000;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.inputs_form_modal{
+    height: 100px;
+	padding: 10px;
+	border: none;
+	margin-bottom: 12px;
+	border-radius: 12px;
+    background-color: #EFEEE0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.inputs_form_modal:focus{
+    outline: none;
+}
+
+.inputs_juntos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_junto{
+    width: 48%;
+    height: 45px;
+    display: flex;
+    margin-bottom: 50px;
+    color: #FF0000;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.posicionamento_btn_modal{
+    display: flex;
+    justify-content: flex-end;
+    /* margin-top: 45px; */
+}
+
+.btn_modal{
+    width: 21%;
+    height: 45px;
+	padding: 10px;
+	border: none;
+	/* margin-top: 23px; */
+	border-radius: 12px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn_modalSair_f{
+    width: 21%;
+    height: 45px;
+	padding: 10px;
+	border: none;
+	/* margin-top: 23px; */
+	border-radius: 12px;
+    background-color: transparent;
+    color: #007BFF;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+} 

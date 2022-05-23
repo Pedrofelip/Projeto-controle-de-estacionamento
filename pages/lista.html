@@ -13,32 +13,77 @@
 </head>
 <body>
     <header class="cabecalho">
-        <div class="btn_voltar">
-            <a href="../pages/home.html">voltar</i></a>
+        <div class="posicionamento_btn_voltar">
+            <a href="../pages/home.html" class="btn_voltar">&#10094;</i></a>
         </div>
         <div class="wrapper itens_cabecalho">
             <img src="../imgs/Imagem_Logo_SENAI.png" alt="logo da rede de educação senai" class="logo_senai">
             <!-- <a href="../index.html" class="btn_sair">sair</a> -->
-            <button id="btn_modal" class="btn_sair">sair</button>
+            <button id="btn_modal" class="btn_sair" onclick="mostrarPopUp('popUp')">sair</button>
 
-            <div id="myModal" class="modal">
-
-                <!-- Modal content -->
-                <div class="conteudo_modal">
-                  <p>você tem certeza que deseja sair da sua conta?</p>
-
-                  <div class="posicionamento_btns">
-                      <div class="btns_modal">
-                          <button class="btn_modal_f">fechar</button>
-                          <a href="../index.html" class="btn_modal_ok">ok</a>
+            <div id="popUp">
+                <div id="myModal" class="modal">
+    
+                    <!-- Modal content -->
+                    <div class="conteudo_modal">
+                      <p>você tem certeza que deseja sair da sua conta?</p>
+    
+                      <div class="posicionamento_btns">
+                          <div class="btns_modal">
+                              <button class="btn_modal_f" onclick="fecharPopUp('popUp')">fechar</button>
+                              <a href="../index.html" class="btn_modal_ok">ok</a>
+                          </div>
                       </div>
-                  </div>
+                    </div>
+                  
                 </div>
-              
             </div>
         </div>
     </header>
     <main>
+
+        <div id="fundo_modal">
+            <div class="posicionamento_modal">
+                <div class="modal_marcar_saida">
+                    <h2 class="titulo_form_modal">marcar saída</h2>
+        
+                    <form class="form_cadastro_modal">
+                        <div class="input_cadastro_modal">
+                            <label for="input_um">placa:</label>
+                            <input id="input_um" class="inputs_form_modal" type="email">
+                        </div>
+        
+                        <div class="input_cadastro_modal">
+                            <label for="input_um">nome:</label>
+                            <input id="input_um" class="inputs_form_modal" type="email">
+                        </div>
+        
+                        <div class="input_cadastro_modal">
+                            <label for="input_um">veículo:</label>
+                            <input id="input_um" class="inputs_form_modal" type="email">
+                        </div>
+        
+                        <div class="inputs_juntos">
+                            <div class="input_junto">
+                                <label for="input_um">data:</label>
+                                <input id="input_um" class="inputs_form_modal" type="email">
+                            </div>
+        
+                            <div class="input_junto">
+                                <label for="input_um">horário:</label>
+                                <input id="input_um" class="inputs_form_modal" type="email">
+                            </div>
+                        </div>
+        
+                        <div class="posicionamento_btn_modal">
+                            <button type="button" class="btn_modalSair_f">fechar</button>
+                            <button type="button" class="btn_modal">marcar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
         <section class="secao_form_lista">
             <div class="fundo_form">
                 <h2 class="titulo_form">estacionados</h2>
@@ -53,6 +98,7 @@
                     <div class="coluna coluna_ponta_direita"><p class="titulo_coluna">saída</p></div>
                 </div>
                 <!-- <div class="alinhamento_forms"> -->
+
                     <form class="alinhamento_colunas">
                         <div class="input_form coluna_ponta_esquerda">
                             <input class="inputs_form coluna_ponta_esquerda" type="text">
@@ -79,7 +125,7 @@
                         </div>
     
                         <div class="input_form coluna_ponta_direita">
-                            <input class="inputs_form coluna_ponta_direita img_input" type="button">
+                            <button class="inputs_form btn_marcar_saida img_input" type="button" onclick="mostrarOcultarModal('fundo_modal')"></button>
                         </div>
                     </form>
     
@@ -109,7 +155,7 @@
                         </div>
     
                         <div class="input_form coluna_ponta_direita">
-                            <input class="inputs_form coluna_ponta_direita img_input" type="button">
+                            <button class="inputs_form btn_marcar_saida img_input" type="button" onclick="mostrarOcultarModal('fundo_modal')"></button>
                         </div>
                     </form>
     
@@ -139,7 +185,7 @@
                         </div>
     
                         <div class="input_form coluna_ponta_direita">
-                            <input class="inputs_form coluna_ponta_direita img_input" type="button">
+                            <button class="inputs_form btn_marcar_saida img_input" type="button" onclick="mostrarOcultarModal('fundo_modal')"></button>
                         </div>
                     </form>
     
@@ -169,7 +215,7 @@
                         </div>
     
                         <div class="input_form coluna_ponta_direita">
-                            <input class="inputs_form coluna_ponta_direita img_input" type="button">
+                            <button class="inputs_form btn_marcar_saida img_input" type="button" onclick="mostrarOcultarModal('fundo_modal')"></button>
                         </div>
                     </form>
     
@@ -199,7 +245,7 @@
                         </div>
     
                         <div class="input_form coluna_ponta_direita">
-                            <input class="inputs_form coluna_ponta_direita img_input" type="button">
+                            <button class="inputs_form btn_marcar_saida img_input" type="button" onclick="mostrarOcultarModal('fundo_modal')"></button>
                         </div>
                     </form>
                 <!-- </div> -->
@@ -208,7 +254,7 @@
         </section>
     </main>
     <footer class="rodape">
-        <p>copyrigth @ 2022 escola senai de informática</p>
+        <p>copyrigth &copy; 2022 escola senai de informática</p>
     </footer>
 
     <script src="../script.js"></script>

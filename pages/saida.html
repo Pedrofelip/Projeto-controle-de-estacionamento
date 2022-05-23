@@ -13,30 +13,32 @@
 </head>
     <body>
         <header class="cabecalho">
-            <div class="btn_voltar">
-                <a href="../pages/home.html" class="voltar">voltar</a>
+            <div class="posicionamento_btn_voltar">
+                <a href="../pages/home.html" class="btn_voltar">&#10094;</i></a>
             </div>
             <div class="wrapper itens_cabecalho">
                 <img src="../imgs/Imagem_Logo_SENAI.png" alt="logo da rede de educação senai" class="logo_senai">
                 <!-- <a href="../index.html" class="btn_sair">sair</a> -->
-                <button id="btn_modal" class="btn_sair">sair</button>
+                <button id="btn_modal" class="btn_sair" onclick="mostrarPopUp('popUp')">sair</button>
 
-                    <div id="myModal" class="modal">
+            <div id="popUp">
+                <div id="myModal" class="modal">
     
-                        <!-- Modal content -->
-                        <div class="conteudo_modal">
-                          <p>você tem certeza que deseja sair da sua conta?</p>
+                    <!-- Modal content -->
+                    <div class="conteudo_modal">
+                      <p>você tem certeza que deseja sair da sua conta?</p>
     
-                          <div class="posicionamento_btns">
-                              <div class="btns_modal">
-                                  <button class="btn_modal_f">fechar</button>
-                                  <a href="../index.html" class="btn_modal_ok">ok</a>
-                              </div>
+                      <div class="posicionamento_btns">
+                          <div class="btns_modal">
+                              <button class="btn_modal_f" onclick="fecharPopUp('popUp')">fechar</button>
+                              <a href="../index.html" class="btn_modal_ok">ok</a>
                           </div>
-                        </div>
-                      
+                      </div>
                     </div>
+                  
+                </div>
             </div>
+        </div>
         </header>
         <main>
             <section class="secao_form_saida">
@@ -79,7 +81,7 @@
             </section>
         </main>
         <footer class="rodape">
-            <p>copyrigth @ 2022 escola senai de informática</p>
+            <p>copyrigth &copy; 2022 escola senai de informática</p>
         </footer>
 
         <script src="../script.js"></script>

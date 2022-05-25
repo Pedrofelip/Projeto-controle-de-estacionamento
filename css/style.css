@@ -115,6 +115,7 @@ body{
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
   
   /* Modal Content/Box */
@@ -128,7 +129,7 @@ body{
     height: 160px;
     border-radius: 15px;
     /* margin-top: 210px; */
-    margin-left: 700px;
+    /* margin-left: 700px; */
     position: relative;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
@@ -199,6 +200,44 @@ body{
   @keyframes animatetop {
     from {top:-300px; opacity:0}
     to {top:0px; opacity:1}
+  }
+
+  @media screen and (max-width: 1536px) {
+    .itens_cabecalho{
+      width: 80%;
+      height: 60px;
+  }
+
+  .conteudo_modal {
+    width: 33%;
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .conteudo_modal {
+    width: 35%;
+    height: 160px;
+    }
+  }
+
+@media screen and (max-width: 1366px) {
+  .conteudo_modal {
+    width: 37.5%;
+    height: 155px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+    .conteudo_modal {
+      width: 38.5%;
+      height: 140px;
+    }
+
+    .posicionamento_btns{
+      width: 97%;
+      height: 90px;
+    }
   }
 
   

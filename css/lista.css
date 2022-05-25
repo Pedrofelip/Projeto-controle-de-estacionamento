@@ -93,10 +93,11 @@
     font-family: 'Ubuntu', sans-serif;
     font-weight:300 ;
     font-size: 14px;
-    color: #ED4343;
+    color: black;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -268,3 +269,155 @@
     text-transform: uppercase;
     cursor: pointer;
 } 
+
+@media screen and (max-width: 1536px) {
+    .secao_form_lista{
+        height: 738px;
+    }
+
+    .fundo_form{
+        width: 1100px;
+        height: 620px;
+    }
+
+    .modal_marcar_saida{
+        width: 780px;
+        height: 380px;
+        left: 365px;
+        top: 225px;
+    }
+
+    .inputs_form{
+        height: 50px;;
+        font-size: 11px;
+    }
+
+    .input_cadastro_modal{
+        height: 40px;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .secao_form_lista{
+        height: 774px;
+    }
+
+    .fundo_form{
+        width: 1100px;
+        height: 620px;
+    }
+
+    #fundo_modal{
+        width: 100%;
+        height: 900px;
+        position: fixed;
+        display: none;
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    .modal_marcar_saida{
+        width: 840px;
+        height: 400px;
+        left: 300px;
+        top: 225px;
+    }
+
+    .inputs_form{
+        height: 50px;;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .secao_form_lista{
+        height: 642px;
+    }
+
+    .fundo_form{
+        width: 1000px;
+        height: 520px;
+    }
+
+    .titulo_form{
+        font-size: 45px;
+    }
+
+    .coluna{
+        height: 45px;
+    }
+
+    .inputs_form{
+        height: 45px;;
+        font-size: 10px;
+    }
+
+    #fundo_modal{
+        width: 100%;
+        height: 900px;
+        position: fixed;
+        display: none;
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    .modal_marcar_saida{
+        width: 620px;
+        height: 320px;
+        left: 370px;
+        top: 200px;
+    }
+
+    .titulo_form_modal{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    
+    .input_cadastro_modal{
+        width: 100%;
+        height: 25px;
+        font-size: 10px;
+    }
+    
+    .inputs_form_modal{
+        height: 25px;
+        padding: 10px;
+        margin-bottom: 12px;
+    }
+
+    .input_junto{
+        margin-bottom: 20px;
+    }
+
+    .btn_modal{
+        width: 21%;
+        height: 45px;
+        font-size: 12px;
+    }
+    
+    .btn_modalSair_f{
+        width: 21%;
+        height: 45px;
+        font-size: 12px;
+    } 
+
+}
+
+@media screen and (max-width: 1280px) {
+    .secao_form_lista{
+        height: 594px;
+    }
+
+    .fundo_form{
+        width: 900px;
+        height: 500px;
+    }
+
+    .modal_marcar_saida{
+        width: 620px;
+        height: 320px;
+        left: 328px;
+        top: 180px;
+    }
+
+}

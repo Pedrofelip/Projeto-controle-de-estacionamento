@@ -1,5 +1,6 @@
 .secao_cards{
     /* background-color: aquamarine; */
+    max-width: 1920px;
     width: 100%;
     height: 810px;
     display: flex;
@@ -59,4 +60,140 @@
 .btn_card{
     width: 90px;
     height: 90px;
+}
+
+@media screen and (max-width: 1536px) {
+    .secao_cards{
+        width: 100%;
+        height: 738px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .fundo_card{
+        width: 330px;
+        height: 565px;
+        margin-left: 25px;
+        margin-top: 80px;
+    }
+
+    .img_card{
+        width: 280px;
+        height: 280px;
+    }
+
+    .titulo_card{
+        font-size: 45px;
+    }
+
+    .subtitulo_card{
+        font-size: 20px; 
+    }
+
+    .btn_card{
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .secao_cards{
+        width: 100%;
+        height: 774px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .fundo_card{
+        width: 310px;
+        height: 540px;
+        margin-left: 25px;
+        margin-top: 115px;
+    }
+
+    .img_card{
+        width: 265px;
+        height: 265px;
+    }
+
+    .titulo_card{
+        font-size: 42px;
+    }
+
+    .subtitulo_card{
+        font-size: 18px; 
+    }
+
+    .btn_card{
+        width: 62px;
+        height: 62px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .secao_cards{
+        width: 100%;
+        height: 642px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .fundo_card{
+        width: 280px;
+        height: 500px;
+        margin-left: 20px;
+        margin-top: 75px;
+    }
+
+    .img_card{
+        width: 255px;
+        height: 250px;
+    }
+
+    .titulo_card{
+        font-size: 40px;
+    }
+
+    .subtitulo_card{
+        font-size: 17px; 
+    }
+
+    .btn_card{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .secao_cards{
+        width: 100%;
+        height: 594px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .fundo_card{
+        width: 265px;
+        height: 480px;
+        margin-left: 18px;
+        margin-top: 58px;
+    }
+
+    .img_card{
+        width: 240px;
+        height: 235px;
+    }
+
+    .titulo_card{
+        font-size: 38px;
+    }
+
+    .subtitulo_card{
+        font-size: 16px; 
+    }
+
+    .btn_card{
+        width: 58px;
+        height: 58px;
+    }
 }

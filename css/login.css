@@ -131,3 +131,157 @@
     text-transform: uppercase;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1536px) {
+
+    .posicionamento_page{
+        margin-top: 50px;
+        height: 780px;
+    }
+
+    .img_1{
+        width: 40%;
+    }
+
+    .logo_senai{
+        width: 40%;
+        margin-bottom: 40px;
+    }
+
+    .fundo_formulario{
+        width: 600px;
+        height: 515px;
+    }
+
+    .btn{
+        margin-top: 13px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+    .posicionamento_page{
+        margin-top: 45px;
+        height: 780px;
+    }
+
+    .img_1{
+        width: 40%;
+    }
+
+    .logo_senai{
+        width: 40%;
+        margin-bottom: 40px;
+    }
+
+    .fundo_formulario{
+        width: 600px;
+        height: 515px;
+    }
+
+}
+
+@media screen and (max-width: 1366px) {
+
+    .posicionamento_page{
+        margin-top: 10px;
+        width: 100%;
+        height: 750px;
+    }
+
+    .img_1{
+        width: 36%;
+    }
+
+    .logo_senai{
+        width: 40%;
+        height: 68px;
+        margin-bottom: 35px;
+    }
+
+    .fundo_formulario{
+        width: 560px;
+        height: 475px;
+    }
+
+    .titulo_form{
+        font-size: 50px;
+        margin-top: 40px;
+    }
+
+    .btn{
+        width: 25%;
+        height: 55px;
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+    .posicionamento_page{
+        margin-top: 0;
+        width: 100%;
+        height: 720px;
+    }
+
+    .img_1{
+        width: 36%;
+    }
+
+    .logo_senai{
+        width: 40%;
+        margin-bottom: 40px;
+    }
+
+    .fundo_formulario{
+        width: 550px;
+        height: 420px;
+    }
+
+    .titulo_form{
+        font-size: 40px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    
+    #input_um{
+        margin-top: 15px;
+    }
+    
+    #input_dois{
+        margin-top: 15px;
+    }
+    
+    .input_login{
+        margin-left: 55px;
+        margin-bottom: 27px;
+    }
+    
+    .inputs_form{
+        height: 38px;
+        padding: 10px;
+        margin-bottom: 12px;
+    }
+    
+    .inputs_form_senha{
+        height: 38px;
+        padding: 10px;
+        margin-bottom: 12px;
+    }
+
+    .olho_botao{
+        height: 38px;
+        padding: 10px;
+        margin-bottom: 12px;
+    }
+
+    .btn{
+        width: 25%;
+        height: 55px;
+        padding: 10px;
+        margin-top: 0;
+        font-size: 20px;
+    }
+}
